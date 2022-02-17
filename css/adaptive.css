@@ -1,0 +1,201 @@
+@media (max-width: 1200px){
+    .pagination__small-inner>.section__small-product{
+        width: 40%;
+    }
+}
+@media (max-width: 950px){
+    .p-content__container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .p-content__aside{
+        max-width: 669px;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .p-content__purchases{
+        max-width: 669px;
+        width: 100%;
+    }
+    .p-content__purchase{
+        max-width: 669px;
+        width: 100%;
+    }
+    .body__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-body__inner{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product-body__text{
+        margin-top: 30px;
+    }
+}
+@media (max-width: 880px) {
+    .menu__list-item>a{
+        font-size: 12px;
+    }
+    .top-header__left{
+        font-size: 12px;
+    }
+    .top-header__phone{
+        font-size: 12px;
+    }
+    .top-header__order{
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+}
+@media (max-width: 750px) {
+    .menu__list{
+        flex-direction: column;
+    }
+    .menu__list-item,
+    .menu__list-item:nth-child(even),
+    .menu__list-item:nth-child(odd){
+        padding: 0;
+        margin: 3px 0;
+    }
+    .products__box{
+        justify-content: center;
+    }
+    .footer__info{
+        margin-right: 0;
+    }
+    .slider__item-title{
+        bottom: 30px;
+        font-size: 20px;
+    }
+    .footer__inner{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__links{
+        margin-top: 30px;
+    }
+    .products{
+        padding: 30px 0;
+    }
+    .section__small-product{
+        width: fit-content;
+    }
+    .section__small-inner{
+        justify-content: center;
+        align-items: center;
+    }
+    .pagination__small-inner>.section__small-product{
+        width: 100%;
+    }
+    .section__small-inner{
+        flex-direction: column;
+    }
+    .p-content__purchase img{
+        margin-right: 7px;
+    }
+}
+@media (max-width: 550px){
+    .menu{
+        display: none;
+    }
+    .p-content__purchase{
+        flex-direction: column;
+        padding: 15px 5px;
+    }
+    .p-content__purchase img{
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 7px;
+    }
+    .top-header{
+        flex-direction: column;
+    }
+    .top-header__left{
+        margin-bottom: 7px;
+        margin-top: 7px;
+    }
+    .p-top-content__title{
+        font-size: 18px;
+    }
+    .p-top-content__inner img{
+        height: 150px;
+    }
+    .p-form__user{
+        font-size: 14px;
+    }
+    .p-form__value{
+        font-size: 13px;
+    }
+    .p-form__box{
+        flex-direction: column;
+    }
+    .p-form__box input:first-child{
+        margin-right: 0;
+    }
+    .p-form__description{
+        margin-bottom: 7px;
+    }
+    .p-content__breadcrumbs-item{
+        font-size: 13px;
+        padding: 5px 7px;
+    }
+    .p-form__title{
+        flex-direction: column;
+    }
+    .p-form__value{
+        margin: 7px 0;
+    }
+    .p-form__confirmation{
+        padding: 15px;
+    }
+    .header__menu-a{
+        display: block;
+    }
+    .header__containers{
+        display: none;
+    }
+    .header__container-logo{
+        margin: 10px 0;
+    }
+    .header__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 30px;
+    }
+    .product-body__images{
+        flex-direction: column;
+    }
+    .product-body__sub-images{
+        flex-direction: row;
+    }
+    .product-body__sub-images img{
+        margin: 8px 5px 0;
+    }
+    .product-body__sub-images img:first-child{
+        margin-left: 0;
+    }
+    .product-body__main-image{
+        margin-right: 0;
+    }
+    .product-body__main-image img{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width: 400px) {
+    .p-content__purchase img{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 7px;
+    }
+}
+@media (max-width: 350px) {
+    
+}
